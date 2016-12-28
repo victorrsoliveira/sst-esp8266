@@ -1,6 +1,8 @@
 # user defined gitignore
 blinky
 *.bin
+*.log
+logs/
 
 # gitignore from GitHub
 
