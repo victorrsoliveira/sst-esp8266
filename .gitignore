@@ -3,6 +3,8 @@ blinky
 *.bin
 *.log
 logs/
+*.sh
+source/
 
 # gitignore from GitHub
 
