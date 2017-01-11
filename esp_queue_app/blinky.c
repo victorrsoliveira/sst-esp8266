@@ -5,8 +5,8 @@
 +	data to the queue and posts to task B. Task B tries to send data to 	+
 +	the queue. Task C reads data from the queue. Task D reads data from 	+
 +	the queue, changes it and sends it back to the queue. Task A, C and D	+
-+	are called every 5, 3 and 4 seconds, while task B is called by task A	+
-+	eventually.																														+
++	are called every 5, 3 and 4 seconds, respectively, while task B is    +
++ called by task A eventually.																					+
 +																																				+
 +	Author:	Victor R. S. de Oliveira (vrso at if.ufal.br)									+
 +	Course:	Sistemas de Tempo Real 2016.1																	+

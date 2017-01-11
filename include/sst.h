@@ -94,6 +94,7 @@ typedef struct mailbox_ {
 	uint8_t *data;
 } Mailbox;
 
+// Definition of Queue
 typedef struct queue_ {
   Semaphore sem;
   uint8_t *data;
